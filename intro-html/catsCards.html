@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats with Cards</title>
+    <style>
+
+        .card {
+            margin-right: 15px;
+            width: 150px;
+            display: inline-block;
+            /* border: 1px solid grey; */
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            
+        }
+        .cat-picture {
+            width: 150px;
+            display: block;
+        }
+        .cat-channel-picture{
+            width: 25px;
+            display: inline-block;
+            margin-left: 5px;
+      
+            border-radius: 50px;
+        }
+        .cat-friends{
+            display: inline-block;
+            width: 115px;
+            vertical-align: top;
+            margin-top: 2px;
+            color:grey;
+        }
+        .div-width,
+        .div-width20 {
+           
+            display: inline-block;
+        }
+       
+        .cat-add{
+            background-color: rgb(0, 153, 255);
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            color: white;
+            margin-top: 10px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+
+        .cat-name{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left:  5px;
+    
+        }
+
+      
+    </style>
+</head>
+<body>
+    <div class="card">
+        
+        <div ><img  class="cat-picture" src="cat1.jpg" alt=""></div>
+        <div class="cat-name">Oliver</div>
+        <div class="horizontal">
+            <div class="div-width20"><img class="cat-channel-picture" src="cat1.jpg" alt=""></div>
+            <div class="cat-friends div-width">2 mutual friends</div>
+        </div>
+
+        <div><button class="cat-add">Add Friend</button></div>
+
+
+    </div>
+
+    <div class="card">
+        
+        <div ><img  class="cat-picture" src="cat2.jpg" alt=""></div>
+        <div class="cat-name">Boris</div>
+        <div class="horizontal">
+            <div class="div-width20"><img class="cat-channel-picture" src="cat2.jpg" alt=""></div>
+            <div class="cat-friends div-width">5 mutual friends</div>
+        </div>
+
+        <div><button class="cat-add">Add Friend</button></div>
+
+
+    </div>
+
+   
+    <div class="card">
+        
+        <div ><img  class="cat-picture" src="cat5.jpg" alt=""></div>
+        <div class="cat-name">Foxy</div>
+        <div class="horizontal">
+            <div class="div-width20"><img class="cat-channel-picture" src="cat5.jpg" alt=""></div>
+            <div class="cat-friends div-width">3 mutual friends</div>
+        </div>
+
+        <div><button class="cat-add">Add Friend</button></div>
+
+
+    </div>
+</body>
+</html>
